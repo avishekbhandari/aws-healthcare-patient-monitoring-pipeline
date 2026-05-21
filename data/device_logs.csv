@@ -1,0 +1,4 @@
+device_id,patient_id,device_type,status,last_sync
+D101,P1001,SmartWatch,Active,2025-01-10 08:00:00
+D102,P1002,Oximeter,Inactive,2025-01-10 07:50:00
+D103,P1003,HeartMonitor,Active,2025-01-10 08:05:00

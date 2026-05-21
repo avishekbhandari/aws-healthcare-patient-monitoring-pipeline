@@ -1,0 +1,6 @@
+patient_id,name,age,gender,city,disease
+P1001,Rahul Sharma,45,Male,Delhi,Diabetes
+P1002,Priya Verma,52,Female,Mumbai,Hypertension
+P1003,Amit Singh,60,Male,Pune,Heart Disease
+P1004,Neha Kapoor,29,Female,Delhi,Asthma
+P1005,Rohit Jain,48,Male,Jaipur,Diabetes
