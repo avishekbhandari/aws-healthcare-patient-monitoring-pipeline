@@ -268,7 +268,7 @@ aws-healthcare-patient-monitoring-pipeline/
 |   |-- patient_vitals.csv
 |   `-- device_logs.csv
 |
-|-- docs/
+|-- screenshots/
 |   `-- project screenshots
 |
 |-- glue_jobs/
@@ -293,7 +293,7 @@ This repository includes:
 - sample healthcare source files
 - AWS Glue ETL script
 - PySpark transformation logic
-- project screenshots in the `docs` folder
+- project screenshots in the `screenshots` folder
 - folder structure for architecture, data, Glue jobs, Lambda, and scripts
 
 The main implementation file is:
