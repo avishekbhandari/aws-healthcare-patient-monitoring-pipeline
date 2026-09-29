@@ -1,0 +1,56 @@
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Virtual environments
+venv/
+.env/
+.venv/
+
+# Environment and secrets
+.env
+*.env
+*.pem
+*.key
+*.secret
+secrets/
+credentials/
+aws_credentials/
+.aws/
+
+# AWS / local config
+*.tfstate
+*.tfstate.*
+.terraform/
+terraform.tfvars
+
+# Logs
+*.log
+logs/
+
+# Spark / Glue output
+*.crc
+_SUCCESS
+.sparkStaging/
+metastore_db/
+derby.log
+
+# Local data outputs
+output/
+outputs/
+processed/
+temp/
+tmp/
+
+# IDE files
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Notebook checkpoints
+.ipynb_checkpoints/
