@@ -301,9 +301,10 @@ aws-healthcare-patient-monitoring-pipeline/
 |-- .gitignore
 |-- README.md
 `-- implementation_summary.md
-
+```
 
 ---
+
 ## Project Evidence
 
 This repository includes:
