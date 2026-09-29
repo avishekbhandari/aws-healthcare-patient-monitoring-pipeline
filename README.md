@@ -10,6 +10,16 @@ I built the main ETL part of the pipeline using AWS Glue, PySpark, AWS Glue Data
 
 ---
 
+## Project Documentation
+
+| Document | Purpose |
+|---|---|
+| [Implementation Summary](implementation_summary.md) | Explains what was implemented and current limitations |
+| [Architecture Diagram](architecture/architecture_diagram.md) | Shows the AWS pipeline flow and architecture explanation |
+| [Data Dictionary](data/data_README.md) | Explains the source CSV files and columns |
+| [Screenshot Evidence](screenshots/screenshots_README.md) | Explains the AWS screenshots and project evidence |
+| [Glue ETL Script](glue_jobs/healthcare_etl.py) | Main AWS Glue PySpark ETL implementation |
+
 ## Business Scenario
 
 A hospital receives patient health monitoring files that include:
@@ -254,38 +264,46 @@ s3://patient-health-monitoring-avishek-2026/processed/reports/
 ```
 
 ---
-
 ## Repository Structure
 
 ```text
 aws-healthcare-patient-monitoring-pipeline/
 |
 |-- architecture/
-|   `-- architecture notes or diagrams
+|   |-- .gitkeep
+|   `-- architecture_diagram.md
 |
 |-- data/
+|   |-- .gitkeep
+|   |-- data_README.md
 |   |-- patient_details.csv
 |   |-- patient_vitals.csv
 |   `-- device_logs.csv
 |
-|-- screenshots/
-|   `-- project screenshots
-|
 |-- glue_jobs/
+|   |-- .gitkeep
 |   `-- healthcare_etl.py
 |
 |-- lambda/
-|   `-- placeholder for future Lambda work
+|   `-- .gitkeep
+|
+|-- screenshots/
+|   |-- .gitkeep
+|   |-- screenshots_README.md
+|   |-- 1.png
+|   |-- 2.png
+|   |-- ...
+|   `-- 15.png
 |
 |-- scripts/
-|   `-- placeholder for helper scripts
+|   `-- .gitkeep
 |
+|-- .gitignore
 |-- README.md
-`-- .gitignore
-```
+`-- implementation_summary.md
+
 
 ---
-
 ## Project Evidence
 
 This repository includes:
