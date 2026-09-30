@@ -16,8 +16,8 @@ I built the main ETL part of the pipeline using AWS Glue, PySpark, AWS Glue Data
 |---|---|
 | [Implementation Summary](implementation_summary.md) | Explains what was implemented and current limitations |
 | [Architecture Diagram](architecture/architecture_diagram.md) | Shows the AWS pipeline flow and architecture explanation |
-| [Data Dictionary](data/data_README.md) | Explains the source CSV files and columns |
-| [Screenshot Evidence](screenshots/screenshots_README.md) | Explains the AWS screenshots and project evidence |
+| [Data Dictionary](data/README.md) | Explains the source CSV files and columns |
+| [Screenshot Evidence](screenshots/README.md) | Explains the AWS screenshots and project evidence |
 | [Glue ETL Script](glue_jobs/healthcare_etl.py) | Main AWS Glue PySpark ETL implementation |
 
 ## Business Scenario
