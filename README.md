@@ -18,8 +18,8 @@ This is a learning and portfolio project. It is not a production healthcare syst
 |---|---|
 | [Implementation Summary](implementation_summary.md) | Explains what was implemented, current scope, and limitations |
 | [Architecture Diagram](architecture/architecture_diagram.md) | Shows the AWS pipeline flow and architecture explanation |
-| [Data Dictionary](data/data_README.md) | Explains the source CSV files, columns, and data quality examples |
-| [Screenshot Evidence](screenshots/screenshots_README.md) | Explains the AWS screenshots and project evidence |
+| [Data Dictionary](data/README.md) | Explains the source CSV files, columns, and data quality examples |
+| [Screenshot Evidence](screenshots/README.md) | Explains the AWS screenshots and project evidence |
 | [Glue ETL Script](glue_jobs/healthcare_etl.py) | Main AWS Glue PySpark ETL implementation |
 
 ---
