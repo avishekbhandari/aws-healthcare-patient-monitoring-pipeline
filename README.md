@@ -389,33 +389,23 @@ The screenshots in the `screenshots/` folder provide evidence of the AWS setup a
 aws-healthcare-patient-monitoring-pipeline/
 |
 |-- architecture/
-|   |-- .gitkeep
-|   `-- architecture_diagram.md
+|   |-- architecture_diagram.md
 |
 |-- data/
-|   |-- .gitkeep
 |   |-- data_README.md
 |   |-- patient_details.csv
 |   |-- patient_vitals.csv
 |   `-- device_logs.csv
 |
 |-- glue_jobs/
-|   |-- .gitkeep
-|   `-- healthcare_etl.py
-|
-|-- lambda/
-|   `-- .gitkeep
+|   |-- healthcare_etl.py
 |
 |-- screenshots/
-|   |-- .gitkeep
 |   |-- screenshots_README.md
 |   |-- 1.png
 |   |-- 2.png
 |   |-- ...
 |   `-- 15.png
-|
-|-- scripts/
-|   `-- .gitkeep
 |
 |-- .gitignore
 |-- README.md
