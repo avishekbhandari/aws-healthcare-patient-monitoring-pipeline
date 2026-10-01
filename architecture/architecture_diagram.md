@@ -140,14 +140,5 @@ S3 Parquet Output
 
 ## Monitoring and Future Extension
 
-The current version focuses mainly on the AWS Glue ETL implementation.
+The current version includes S3 storage setup, IAM role setup, Glue Crawler, Glue Data Catalog, AWS Glue ETL implementation, and Parquet output. Lambda function automation and rejected-record movement are future improvements.
 
-Future improvements could include:
-
-- Lambda trigger for new file uploads
-- rejected-record movement
-- Glue Workflow orchestration
-- CloudWatch log documentation
-- Athena queries on top of the Parquet output
-- data quality count reporting
-- parameterized S3 paths
