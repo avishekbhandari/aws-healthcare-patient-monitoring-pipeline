@@ -392,7 +392,7 @@ aws-healthcare-patient-monitoring-pipeline/
 |   |-- architecture_diagram.md
 |
 |-- data/
-|   |-- data_README.md
+|   |-- README.md
 |   |-- patient_details.csv
 |   |-- patient_vitals.csv
 |   `-- device_logs.csv
@@ -401,7 +401,7 @@ aws-healthcare-patient-monitoring-pipeline/
 |   |-- healthcare_etl.py
 |
 |-- screenshots/
-|   |-- screenshots_README.md
+|   |-- README.md
 |   |-- 1.png
 |   |-- 2.png
 |   |-- ...
