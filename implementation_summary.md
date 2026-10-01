@@ -18,17 +18,23 @@ This is a portfolio and learning project focused mainly on AWS Glue, PySpark, AW
 
 The current implementation includes:
 
-- sample healthcare source files
-- AWS Glue PySpark ETL job
-- Glue Data Catalog table reads
+- S3 bucket and healthcare folder structure
+- raw, processed, and rejected storage zones
+- Glue IAM role setup
+- Lambda IAM role setup
+- AWS Glue Crawler
+- AWS Glue Data Catalog database: `healthcare_db`
+- Glue Catalog tables: `vitals`, `patients`, and `devices`
+- AWS Glue Studio ETL job
+- PySpark ETL script
 - data cleaning logic
 - health status and alert flag logic
-- joins between patient vitals, patient details, and device logs
+- joins between vitals, patients, and devices
 - final reporting column selection
-- Parquet output written to Amazon S3
-- screenshot evidence folder
+- Parquet output written to S3
+- screenshot evidence
 - architecture documentation
-- project README documentation
+- data dictionary
 
 ---
 
@@ -200,7 +206,7 @@ Known limitations:
 - the dataset is small and sample-based
 - Lambda automation is not implemented in code
 - rejected-record movement is not implemented in code
-- Glue crawler setup is documented but not automated through infrastructure code
+- - Glue Crawler was created through the AWS console, but Infrastructure as Code is not included
 - CloudWatch monitoring is not fully documented
 - there are no automated unit tests
 - S3 paths are hardcoded in the Glue job
